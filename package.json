@@ -1,0 +1,27 @@
+{
+  "name": "db-challenge",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SFMack/node-db-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SFMack/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/SFMack/node-db-challenge#readme"
+}
