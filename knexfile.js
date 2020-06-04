@@ -6,9 +6,9 @@ module.exports = {
     connection: {
       filename: "./data/challengeDB.db3",
     },
-  },
-  useNullAsDefault: true,
-  migrations: {
-    directory: "./data/migrations",
+    useNullAsDefault: true,
+    migrations: {
+      directory: "./data/migrations",
+    },
   },
 };
